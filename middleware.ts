@@ -4,7 +4,7 @@ import { create } from 'domain';
 const isPublicRoute = createRouteMatcher([
     "/",
     "/login(.*)",
-    "/regiser(.*)",
+    "/register(.*)",
     "/book(.*)",
   ])
 
